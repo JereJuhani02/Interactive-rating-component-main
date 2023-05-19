@@ -16,12 +16,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 body {
   background-color: hsl(216, 12%, 8%);
   margin: 0;
+  postition: absolute;
+  display: grid;
+  inset: 0;
+  place-item: center;
 }
 
 .frame {
